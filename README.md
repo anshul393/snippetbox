@@ -20,3 +20,10 @@ Follow these steps to set up and run SnippetBox on your local machine:
    ```bash
    git clone https://github.com/anshul393/snippetbox.git
    cd snippetbox
+
+2. Setup Database for persistant storage and session management
+3. Run the following commad:
+
+   ```bash
+   go run ./cmd/web --help
+   go run ./cmd/web
